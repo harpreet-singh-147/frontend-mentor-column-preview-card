@@ -29,6 +29,7 @@ html {
   background: var(--very-light-gray-background-headings-buttons);
   height: 100vh;
   font-family: var(--main-font-family);
+  overflow: hidden;
 }
 
 .main {
@@ -123,6 +124,7 @@ html {
   .body {
     display: flex;
     flex-direction: column;
+    overflow: auto;
   }
 
   .main {
